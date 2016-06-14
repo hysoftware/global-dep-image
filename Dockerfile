@@ -5,4 +5,3 @@ RUN pacman -Syu --noconfirm expect base-devel libnotify libffi python python2 py
 RUN useradd -m hysoft
 USER hysoft
 WORKDIR /home/hysoft
-RUN virtualenv application_env
